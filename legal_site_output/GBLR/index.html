@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBLR Judgments - Pakistan Legal Archive</title>
+    <meta name="description"
+        content="Browse GBLR judgments by year. Access complete case laws from GBLR report.">
+    <style>
+        :root {
+                {
+                --primary-color: #2c3e50;
+                --secondary-color: #34495e;
+                --accent-color: #3498db;
+                --text-color: #333;
+                --bg-color: #f4f4f4;
+                --white: #ffffff;
+            }
+        }
+
+        body {
+                {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: var(--text-color);
+                background-color: var(--bg-color);
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        header {
+                {
+                background-color: var(--primary-color);
+                color: var(--white);
+                padding: 1rem 0;
+                text-align: center;
+            }
+        }
+
+        header h1 {
+                {
+                margin: 0;
+            }
+        }
+
+        nav {
+                {
+                background-color: var(--secondary-color);
+                padding: 0.5rem;
+            }
+        }
+
+        .breadcrumb {
+                {
+                max-width: 1200px;
+                margin: 0 auto;
+                color: var(--white);
+            }
+        }
+
+        .breadcrumb a {
+                {
+                color: var(--white);
+                text-decoration: none;
+            }
+        }
+
+        .breadcrumb a:hover {
+                {
+                text-decoration: underline;
+            }
+        }
+
+        .container {
+                {
+                max-width: 1200px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+        }
+
+        .year-grid {
+                {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 1rem;
+                margin-top: 2rem;
+            }
+        }
+
+        .year-card {
+                {
+                background: var(--white);
+                padding: 1rem;
+                border-radius: 4px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+        }
+
+        .year-card a {
+                {
+                color: var(--text-color);
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.2rem;
+                display: block;
+            }
+        }
+
+        .year-card:hover {
+                {
+                background-color: var(--accent-color);
+            }
+        }
+
+        .year-card:hover a {
+                {
+                color: var(--white);
+            }
+        }
+
+        footer {
+                {
+                background-color: var(--primary-color);
+                color: var(--white);
+                text-align: center;
+                padding: 1rem 0;
+                margin-top: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>GBLR Archive</h1>
+    </header>
+
+    <nav>
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> &gt; <span>GBLR</span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Select Year</h2>
+        <div class="year-grid">
+            <!-- YEAR_LIST_PLACEHOLDER -->
+            
+            <div class="year-card">
+                <a href="2016.html">2016</a>
+            </div>
+            
+            <div class="year-card">
+                <a href="2015.html">2015</a>
+            </div>
+            
+            <div class="year-card">
+                <a href="2014.html">2014</a>
+            </div>
+            
+            <div class="year-card">
+                <a href="2010.html">2010</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pakistan Legal Archive. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
